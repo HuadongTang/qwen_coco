@@ -11,7 +11,7 @@ conda create -n edc_new python=3.9
 
 source activate edc_new
 
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch=='2.4.1+cu121' torchvision=='0.19.1+cu121' torchaudio=='2.4.1+cu121' --index-url https://download.pytorch.org/whl/cu121
 
 pip install -U git+https://github.com/huggingface/transformers@21fac7abba2a37fae86106f87fcf9974fd1e3830
 
