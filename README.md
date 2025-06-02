@@ -25,6 +25,9 @@ pip install nltk
 
 pip install opencv-python
 
+pip install -U flash-attn
+
+
 [3.Run](http://3.Run) the code
 
 (1)先运行qwen_coco.py
