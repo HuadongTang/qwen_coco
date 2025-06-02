@@ -12,7 +12,9 @@ conda create -n edc_new python=3.9
 source activate edc_new
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
 pip install -U git+https://github.com/huggingface/transformers@21fac7abba2a37fae86106f87fcf9974fd1e3830
+
 pip install pillow bitsandbytes accelerate huggingface_hub
 
 pip install transformers==4.51.3 accelerate
