@@ -23,6 +23,8 @@ pip install sentence_transformers
 
 pip install nltk
 
+pip install opencv-python
+
 [3.Run](http://3.Run) the code
 
 (1)先运行qwen_coco.py
