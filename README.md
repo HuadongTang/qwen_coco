@@ -27,6 +27,8 @@ pip install opencv-python
 
 pip install -U flash-attn
 
+pip install aiofiles
+
 
 [3.Run](http://3.Run) the code
 
